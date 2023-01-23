@@ -1,0 +1,77 @@
+#heroctn {
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(193, 100%, 96%);
+    height: 90vh;
+}
+
+.heroctn-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    /* height: 100%;
+    width: 100%; */
+    width: 28rem;
+    margin: 2.5rem;
+}
+
+/* .Rctn {
+     width: 90rem; */
+/* margin: 2.5rem;
+}  */
+
+.Lctn {
+    margin: 2.5rem;
+}
+
+.Lctn h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+
+}
+
+.hero-btn {
+    padding: 0.7rem 2rem;
+    margin: 1.1rem 1.25rem;
+    border-radius: 1.5rem;
+    border: none;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 2px 1px 5px 0px #808080;
+    cursor: pointer;
+}
+
+.section-flex {
+    display: flex;
+    flex-direction: column;
+}
+        /* for Mobile  */
+        
+@media only screen and (max-width:450px) {
+    .heroctn-01 {
+        flex-wrap: wrap;
+
+    }
+
+    .Lctn {
+        text-align: center;
+    }
+
+    .Lctn h1 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .hero-img {
+        width: 18rem;
+        margin: 1.5rem;
+        border: 1px solid red;
+    }
+
+}
